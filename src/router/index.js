@@ -56,6 +56,11 @@ const router = createRouter({
             path: '/attribute-binding',
             component: () => import('../views/exercices/attribute-binding.vue')
         }
+        ,
+        {
+            path: '/event-binding',
+            component: () => import('../views/exercices/event-binding.vue')
+        }
     ]
 })
 export default router
