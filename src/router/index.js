@@ -46,6 +46,10 @@ const router = createRouter({
         {
             path: '/lesson-event-binding',
             component: () => import('../views/lessons/lesson-event-binding.vue')
+        },
+        {
+            path: '/text-interpolation',
+            component: () => import('../views/exercices/text-interpolation.vue')
         }
     ]
 })
