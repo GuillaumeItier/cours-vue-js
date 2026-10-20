@@ -48,6 +48,22 @@ const router = createRouter({
             component: () => import('../views/lessons/lesson-event-binding.vue')
         },
         {
+            path: '/lesson-dynamic-styling',
+            component: () => import('../views/lessons/lesson-dynamic-styling.vue')
+        },
+        {
+            path: '/lesson-two-way-binding',
+            component: () => import('../views/lessons/lesson-two-way-binding.vue')
+        },
+        {
+            path: '/lesson-conditional-rendering',
+            component: () => import('../views/lessons/lesson-conditional-rendering.vue')
+        },
+        {
+            path: '/lesson-list-rendering',
+            component: () => import('../views/lessons/lesson-list-rendering.vue')
+        },
+        {
             path: '/text-interpolation',
             component: () => import('../views/exercices/text-interpolation.vue')
         }
@@ -65,7 +81,14 @@ const router = createRouter({
         {
             path: '/data-binding',
             component: () => import('../views/tp/data-binding.vue')
-        }
+        },
+        // Route spéciale pour gérer les pages non trouvées
+        // Si la route sur laquelle on est ne Match pas nos autre routes (path)
+        // On redirige vers une page avec un template style page 404
+        {
+            path: '/:pathMatch(.*)*',
+            component: () => import('../views/not-found.vue'),
+        },
         
         
     ]
