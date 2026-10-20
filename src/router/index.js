@@ -86,6 +86,10 @@ const router = createRouter({
             path: '/event-binding',
             component: () => import('../views/exercices/event-binding.vue')
         },
+        {
+            path: '/dynamic-styling',
+            component: () => import('../views/exercices/dynamic-styling.vue')
+        },
 
         //// TP ////
         {
