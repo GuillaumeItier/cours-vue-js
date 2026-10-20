@@ -46,6 +46,22 @@
         </li>
       </ul>
     </div>
+    <!-- TP menu -->
+    <div class="flex-none">
+      <ul class="menu menu-horizontal px-1">
+        <!-- <li><a>Link</a></li> -->
+        <li>
+          <details>
+            <summary>TP</summary>
+            <ul class="bg-base-100 rounded-t-none p-2">
+              <li><router-link to="/data-binding">Data binding</router-link></li>
+              <!-- <li><router-link to="/"></router-link></li> -->
+              <!-- <li><a>Link 2</a></li> -->
+            </ul>
+          </details>
+        </li>
+      </ul>
+    </div>
   </div>
 </template>
 
