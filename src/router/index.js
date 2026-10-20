@@ -23,7 +23,16 @@ const router = createRouter({
             path: '/contact',
             component: () => import('../views/Contact.vue')
         },
-         {
+            // Route spéciale pour gérer les pages non trouvées
+        // Si la route sur laquelle on est ne Match pas nos autre routes (path)
+        // On redirige vers une page avec un template style page 404
+        {
+            path: '/:pathMatch(.*)*',
+            component: () => import('../views/not-found.vue'),
+        },
+
+        /////   LESSONS   /////
+        {
             path: '/lesson-setup',
             component: () => import('../views/lessons/lesson-setup.vue')
         },
@@ -63,32 +72,27 @@ const router = createRouter({
             path: '/lesson-list-rendering',
             component: () => import('../views/lessons/lesson-list-rendering.vue')
         },
+
+        /////  EXERCICES  /////
         {
             path: '/text-interpolation',
             component: () => import('../views/exercices/text-interpolation.vue')
-        }
-        ,
+        },
         {
             path: '/attribute-binding',
             component: () => import('../views/exercices/attribute-binding.vue')
-        }
-        ,
+        },
         {
             path: '/event-binding',
             component: () => import('../views/exercices/event-binding.vue')
-        }
-         ,
+        },
+
+        //// TP ////
         {
             path: '/data-binding',
             component: () => import('../views/tp/data-binding.vue')
         },
-        // Route spéciale pour gérer les pages non trouvées
-        // Si la route sur laquelle on est ne Match pas nos autre routes (path)
-        // On redirige vers une page avec un template style page 404
-        {
-            path: '/:pathMatch(.*)*',
-            component: () => import('../views/not-found.vue'),
-        },
+    
         
         
     ]

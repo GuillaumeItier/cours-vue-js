@@ -4,12 +4,13 @@
     <router-link to="/home" class="btn btn-ghost">Home</router-link>
     <router-link to="/about" class="btn btn-ghost">About</router-link>
     <router-link to="/contact" class="btn btn-ghost">Contact</router-link>
+    <!--lessons menu-->
     <div class="flex-none">
       <ul class="menu menu-horizontal px-1">
         <!-- <li><a>Link</a></li> -->
         <li>
           <details>
-            <summary>Leçons</summary>
+            <summary>Lessons</summary>
             <ul class="bg-base-100 rounded-t-none p-2">
               <li><router-link to="/lesson-setup">Setup Vue</router-link></li>
               <li><router-link to="/lesson-introduction">Introduction Vue</router-link></li>
@@ -21,6 +22,24 @@
               <li><router-link to="/lesson-two-way-binding">Two way binding</router-link></li>
               <li><router-link to="/lesson-conditional-rendering">Conditional rendering</router-link></li>
               <li><router-link to="/lesson-list-rendering">List rendering</router-link></li>
+              <!-- <li><a>Link 2</a></li> -->
+            </ul>
+          </details>
+        </li>
+      </ul>
+    </div>
+    <!--exercices menu-->
+    <div class="flex-none">
+      <ul class="menu menu-horizontal px-1">
+        <!-- <li><a>Link</a></li> -->
+        <li>
+          <details>
+            <summary>Exercices</summary>
+            <ul class="bg-base-100 rounded-t-none p-2">
+              <li><router-link to="/text-interpolation">Text interpolation</router-link></li>
+              <li><router-link to="/attribute-binding">Attribute binding</router-link></li>
+              <li><router-link to="/event-binding">Event binding</router-link></li>
+              <!-- <li><router-link to="/"></router-link></li> -->
               <!-- <li><a>Link 2</a></li> -->
             </ul>
           </details>
