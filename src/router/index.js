@@ -104,6 +104,10 @@ const router = createRouter({
             path: '/style-dynamic',
             component: () => import('../views/tp/style-dynamic.vue')
         },
+        {
+            path: '/watcher-computed',
+            component: () => import('../views/tp/watcher-computed.vue')
+        },
     
         
         
