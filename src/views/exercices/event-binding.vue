@@ -26,8 +26,10 @@
             <button @click.left="increment" class="btn btn-success btn-square join-item text-white font-bold text-lg">
                 +
             </button>
+           
             
             </div>
+             <p>{{afficherNameUser( )}}</p>
 
         </div>
 
@@ -36,7 +38,7 @@
 </template>
 
 
-<!-- <script setup>
+<script setup>
 import { ref } from 'vue';
 
 let compteur = ref(0);
@@ -48,9 +50,20 @@ function decrement () {
     compteur.value -= 77; 
 }
 
-</script> -->
+let userName = ref("");
 
-<script>
+function afficherNameUser () {
+    console.log("fonction afficherNameUser exécuté");
+    if (userName.value === ""){
+        return "Online";
+    }else {
+        return "Offline";
+    }
+}
+
+</script>
+
+<!-- <script>
 export default {
   data() {
     return {
@@ -68,4 +81,4 @@ export default {
     }
   }
 }
-</script>
+</script> -->

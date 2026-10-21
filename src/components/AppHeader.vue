@@ -40,6 +40,7 @@
               <li><router-link to="/attribute-binding">Attribute binding</router-link></li>
               <li><router-link to="/event-binding">Event binding</router-link></li>
               <li><router-link to="/dynamic-styling">Dynamic styling</router-link></li>
+              <li><router-link to="/watchers">Watchers</router-link></li>
               <!-- <li><router-link to="/"></router-link></li> -->
               <!-- <li><a>Link 2</a></li> -->
             </ul>

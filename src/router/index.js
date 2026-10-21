@@ -90,6 +90,10 @@ const router = createRouter({
             path: '/dynamic-styling',
             component: () => import('../views/exercices/dynamic-styling.vue')
         },
+        {
+            path: '/watchers',
+            component: () => import('../views/exercices/watchers.vue')
+        },
 
         //// TP ////
         {
