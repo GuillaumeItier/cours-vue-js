@@ -108,6 +108,10 @@ const router = createRouter({
             path: '/watcher-computed',
             component: () => import('../views/tp/watcher-computed.vue')
         },
+        {
+            path: '/api-onmounted',
+            component: () => import('../views/tp/api-onmounted.vue')
+        },
     
         
         

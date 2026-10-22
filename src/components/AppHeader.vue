@@ -58,7 +58,8 @@
             <ul class="bg-base-100 rounded-t-none p-2">
               <li><router-link to="/data-binding">Data binding</router-link></li>
               <li><router-link to="/style-dynamic">Style dynamic</router-link></li>
-              <li><router-link to="/watcher-computed">watcher-computed</router-link></li>
+              <li><router-link to="/watcher-computed">Watcher & Computed</router-link></li>
+              <li><router-link to="/api-onmounted">API onMounted</router-link></li>
               <!-- <li><router-link to="/"></router-link></li> -->
               <!-- <li><a>Link 2</a></li> -->
             </ul>
