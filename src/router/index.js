@@ -124,6 +124,10 @@ const router = createRouter({
             path: '/api-onmounted',
             component: () => import('../views/tp/api-onmounted.vue')
         },
+        {
+            path: '/api-dragon-ball',
+            component: () => import('../views/tp/api-dragon-ball.vue')
+        },
     
         
         
