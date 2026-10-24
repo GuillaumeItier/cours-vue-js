@@ -80,6 +80,10 @@ const router = createRouter({
             path: '/lesson-lifecycle',
             component: () => import('../views/lessons/lesson-lifecycle.vue')
         },
+        {
+            path: '/lesson-watchers',
+            component: () => import('../views/lessons/lesson-watchers.vue')
+        },
 
         /////  EXERCICES  /////
         {
