@@ -88,6 +88,10 @@ const router = createRouter({
             path: '/lesson-props',
             component: () => import('../views/lessons/lesson-props.vue')
         },
+        {
+            path: '/lesson-lib-chartjs',
+            component: () => import('../views/lessons/lesson-lib-chartjs.vue')
+        },
 
         /////  EXERCICES  /////
         {
