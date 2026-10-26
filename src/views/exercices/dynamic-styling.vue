@@ -3,9 +3,9 @@
 <div class="card w-full max-w-4xl bg-base-100 shadow-xl border border-base-300 rounded-xl p-10 my-8 mx-auto">
   
   <!-- Titre central du composant -->
-  <h2 class="text-center text-2xl font-bold tracking-tight text-neutral mb-10">
+  <h1 class="text-center text-2xl font-bold tracking-tight text-neutral mb-10">
     Dynamic Styling (Class)
-  </h2>
+  </h1>
   
   <!-- Grille responsive contenant les 4 cartes cliquables -->
   <div class="grid grid-cols-1 md:grid-cols-2 gap-x-24 gap-y-6 max-w-2xl mx-auto">

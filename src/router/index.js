@@ -114,6 +114,10 @@ const router = createRouter({
             path: '/watchers',
             component: () => import('../views/exercices/watchers.vue')
         },
+        {
+            path: '/props',
+            component: () => import('../views/exercices/props.vue')
+        },
 
         //// TP ////
         {
