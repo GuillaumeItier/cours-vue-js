@@ -25,6 +25,7 @@
               <li><router-link to="/lesson-computed-properties">Computed properties</router-link></li>
               <li><router-link to="/lesson-lifecycle">Lifecycle</router-link></li>
               <li><router-link to="/lesson-watchers">Watchers</router-link></li>
+              <li><router-link to="/lesson-props">Props</router-link></li>
               <!-- <li><a>Link 2</a></li> -->
             </ul>
           </details>
