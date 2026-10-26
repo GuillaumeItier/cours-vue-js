@@ -128,6 +128,11 @@ const router = createRouter({
             path: '/api-dragon-ball',
             component: () => import('../views/tp/api-dragon-ball.vue')
         },
+        {
+            path: '/list-and-conditionnal-rendering',
+            component: () => import('../views/tp/list-and-conditionnal-rendering.vue')
+        }
+    
     
         
         
