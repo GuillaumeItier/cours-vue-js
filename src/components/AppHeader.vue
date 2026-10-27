@@ -28,6 +28,7 @@
               <li><router-link to="/lesson-props">Props</router-link></li>
               <li><router-link to="/lesson-lib-chartjs">Chart js</router-link></li>
               <li><router-link to="/lesson-router">Router and props</router-link></li>
+              <li><router-link to="/lesson-emit">Emit</router-link></li>
               <!-- <li><a>Link 2</a></li> -->
             </ul>
           </details>

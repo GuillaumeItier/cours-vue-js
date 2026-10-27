@@ -102,6 +102,10 @@ const router = createRouter({
             component: () => import('../components/DetailsPage.vue'),
             props: true,
         },
+        {
+            path: '/lesson-emit',
+            component: () => import('../views/lessons/lesson-emit.vue')
+        },
 
         /////  EXERCICES  /////
         {
