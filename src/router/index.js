@@ -92,6 +92,16 @@ const router = createRouter({
             path: '/lesson-lib-chartjs',
             component: () => import('../views/lessons/lesson-lib-chartjs.vue')
         },
+        {
+            path: '/lesson-router',
+            component: () => import('../views/lessons/lesson-router.vue')
+        },
+        {
+            path: '/details/:id/:itemName',
+            name: 'Details',
+            component: () => import('../components/DetailsPage.vue'),
+            props: true,
+        },
 
         /////  EXERCICES  /////
         {
