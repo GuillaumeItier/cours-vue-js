@@ -157,6 +157,10 @@ const router = createRouter({
         {
             path: '/list-and-conditionnal-rendering',
             component: () => import('../views/tp/list-and-conditionnal-rendering.vue')
+        },
+        {
+            path: '/emit',
+            component: () => import('../views/tp/emit.vue')
         }
     
     
