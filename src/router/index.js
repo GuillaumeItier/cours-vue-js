@@ -165,6 +165,10 @@ const router = createRouter({
         {
             path: '/component-communication',
             component: () => import('../views/tp/component-communication.vue')
+        },
+        {
+            path: '/computed-properties',
+            component: () => import('../views/tp/computed-properties.vue')
         }
     
     

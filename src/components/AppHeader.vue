@@ -72,6 +72,7 @@
               <li><router-link to="/list-and-conditionnal-rendering">List and conditionnal rendering</router-link></li>
               <li><router-link to="/emit">Emit - DefineEmits</router-link></li>
               <li><router-link to="/component-communication">Component communication</router-link></li>
+              <li><router-link to="/computed-properties">Computed properties</router-link></li>
               <!-- <li><router-link to="/"></router-link></li> -->
               <!-- <li><a>Link 2</a></li> -->
             </ul>
