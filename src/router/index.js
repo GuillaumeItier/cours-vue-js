@@ -161,6 +161,10 @@ const router = createRouter({
         {
             path: '/emit',
             component: () => import('../views/tp/emit.vue')
+        },
+        {
+            path: '/component-communication',
+            component: () => import('../views/tp/component-communication.vue')
         }
     
     
